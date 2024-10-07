@@ -1,0 +1,45 @@
+.Nav-container{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Nav-container-sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    gap: 6%;
+}
+
+.Nav-container-sec2{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    gap: 6%;
+}
+.login-button{
+    border: 1px solid black;
+    padding: 7px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.start-your-business-button{
+border: none;
+    padding: 9px;
+    width: 160px;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    background: #0F1738;
+}

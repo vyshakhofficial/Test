@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-section{
+    width: 100%;
+    height: 100%;
+}
+
+.Main-banner{
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(104.45deg, #7B92F8 0%, #FF9393 100%);
+
+}
+
+.banner-content-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.sec1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 6%;
+}
+
+.sec2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Build-text{
+    font-family: unset;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: left;
+}
+
+.get-started-button{
+    background: linear-gradient(96.2deg, #2640BA -92.42%, #FB6C76 104.33%);
+    height: 30px;
+    width: 90px;
+    color: white;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.second-section {
+    width: 100%;
+    background: #F5F7FF;
+    position: relative;
+    min-height: 80vh; 
+  }
+
+.start-button{
+    border: none;
+    padding: 9px;
+    width: 170px;
+    cursor: pointer;
+    border-radius: 7px;
+    color: white;
+    background: #0F1738;
+}  
+
+.busin{
+    background: linear-gradient(92.74deg, #3743B5 34.32%, #FE6D75 73.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent; 
+}
+  
+
+.third-section{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section-1{
+    width: 60%;
+}
+
+.fourth-section{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(104.45deg, #7B92F8 0%, #FF9393 100%);
+}
+
+.fifth-section{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #EBECFF;
+}
+
+.footer-sec{
+    width: 100%;
+    height: 100%;
+}
+
+.text-bold{
+    font-weight: bold;
+}
